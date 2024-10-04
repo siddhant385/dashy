@@ -1,49 +1,145 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
+  title: "Siddhant's Dashboard"
+  description: "Personal dashboard for learning, coding, and JEE prep"
+  footer: "Powered by Dashy | Organized by Siddhant"
+  icon: "https://img.icons8.com/color/48/000000/brain.png"
+  theme: "auto"
+  fontSize: 16
+  layout: "auto"
+  disableConfig: false
+  auth:
+    enabled: true
+    users:
+      - user: "siddhant"
+        pass: "3194cf60ac336d0576070828472943dbedf49c8c6a02f2cc567859a4ce2a6772"  # Use a password hash here for security
+    sessionDuration: 1d  # Session expiration time (adjust as needed)
 
-# Main content - An array of sections, each containing an array of items
+pageInfo:
+  title: "Siddhant's Study Hub"
+  navLinks:
+    - title: "GitHub"
+      path: "https://github.com/siddhant"
+    - title: "Blog"
+      path: "https://siddhant-blog.github.io"
+    - title: "Portfolio"
+      path: "https://your-portfolio-link.com"
+
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - name: "Coding and Development"
+    icon: "mdi-code-braces"
+    items:
+      - title: "GitHub"
+        icon: "mdi-github"
+        url: "https://github.com"
+      - title: "Stack Overflow"
+        icon: "mdi-stack-overflow"
+        url: "https://stackoverflow.com"
+      - title: "LeetCode"
+        icon: "mdi-code-tags"
+        url: "https://leetcode.com"
+      - title: "HackerRank"
+        icon: "mdi-console"
+        url: "https://www.hackerrank.com"
+      - title: "CryptoHack"
+        icon: "mdi-lock"
+        url: "https://cryptohack.org"
+  
+  - name: "JEE Preparation"
+    icon: "mdi-school"
+    items:
+      - title: "Embibe"
+        icon: "mdi-book-open"
+        url: "https://www.embibe.com"
+      - title: "Allen Digital"
+        icon: "mdi-teach"
+        url: "https://www.allen.ac.in"
+      - title: "Khan Academy"
+        icon: "mdi-atom"
+        url: "https://www.khanacademy.org"
+      - title: "Unacademy"
+        icon: "mdi-lightbulb-on"
+        url: "https://unacademy.com"
+      - title: "NTA Official"
+        icon: "mdi-domain"
+        url: "https://nta.ac.in"
+
+  - name: "Learning and Practice"
+    icon: "mdi-laptop"
+    items:
+      - title: "freeCodeCamp"
+        icon: "mdi-laptop-chromebook"
+        url: "https://www.freecodecamp.org"
+      - title: "JavaScript Roadmap"
+        icon: "mdi-javascript"
+        url: "https://roadmap.sh/javascript"
+      - title: "W3Schools"
+        icon: "mdi-language-html5"
+        url: "https://www.w3schools.com"
+      - title: "MDN Web Docs"
+        icon: "mdi-web"
+        url: "https://developer.mozilla.org"
+
+  - name: "Blog and Content Creation"
+    icon: "mdi-blogger"
+    items:
+      - title: "Blog Home"
+        icon: "mdi-note-edit"
+        url: "https://siddhant-blog.github.io"
+      - title: "Canva"
+        icon: "mdi-palette"
+        url: "https://www.canva.com"
+      - title: "Medium"
+        icon: "mdi-text-box"
+        url: "https://medium.com"
+      - title: "Grammarly"
+        icon: "mdi-spellcheck"
+        url: "https://www.grammarly.com"
+
+  - name: "Productivity Tools"
+    icon: "mdi-calendar-clock"
+    items:
+      - title: "Google Keep"
+        icon: "mdi-note"
+        url: "https://keep.google.com"
+      - title: "Notion"
+        icon: "mdi-notebook"
+        url: "https://www.notion.so"
+      - title: "Todoist"
+        icon: "mdi-check-circle"
+        url: "https://todoist.com"
+      - title: "Pomofocus"
+        icon: "mdi-timer"
+        url: "https://pomofocus.io"
+
+  - name: "Maps and Locations"
+    icon: "mdi-map"
+    items:
+      - title: "Home"
+        icon: "mdi-home-map-marker"
+        url: "https://www.google.com/maps?q=your+home+location"
+      - title: "College"
+        icon: "mdi-school"
+        url: "https://www.google.com/maps?q=Jabalpur+Engineering+College"
+      - title: "Library"
+        icon: "mdi-library"
+        url: "https://www.google.com/maps?q=library+nearby"
+      - title: "Cafe"
+        icon: "mdi-coffee"
+        url: "https://www.google.com/maps?q=cafes+nearby"
+
+  - name: "Communication"
+    icon: "mdi-chat"
+    items:
+      - title: "Gmail"
+        icon: "mdi-gmail"
+        url: "https://mail.google.com"
+      - title: "WhatsApp Web"
+        icon: "mdi-whatsapp"
+        url: "https://web.whatsapp.com"
+      - title: "Slack"
+        icon: "mdi-slack"
+        url: "https://slack.com"
+
 
 - name: Courses and learning tools
   icon: fas fa-book

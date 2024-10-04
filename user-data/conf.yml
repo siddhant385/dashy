@@ -7,12 +7,11 @@ appConfig:
   fontSize: 16
   layout: "auto"
   disableConfig: true
-  # auth:
-  #   enabled: false
-  #   users:
-  #     - user: "siddhant"
-  #     - hash: "3194cf60ac336d0576070828472943dbedf49c8c6a02f2cc567859a4ce2a6772"  # Use a password hash here for security
-  #     - type: "admin"
+  auth:
+    users:
+      - user: "siddhant"
+      - hash: "3477e5f0bebcbadab458297d38ee342a219d431f2e6848886658f44c8487bf28"  # Use a password hash here for security
+      - type: "admin"
       
     
 
@@ -32,19 +31,13 @@ sections:
     items:
       - title: "GitHub"
         icon: "mdi-github"
-        url: "https://github.com"
+        url: "https://github.com/siddhant385"
       - title: "Stack Overflow"
         icon: "mdi-stack-overflow"
         url: "https://stackoverflow.com"
       - title: "LeetCode"
         icon: "mdi-code-tags"
-        url: "https://leetcode.com"
-      - title: "HackerRank"
-        icon: "mdi-console"
-        url: "https://www.hackerrank.com"
-      - title: "CryptoHack"
-        icon: "mdi-lock"
-        url: "https://cryptohack.org"
+        url: "https://leetcode.com/s.i.d385"
   
   - name: "JEE Preparation"
     icon: "mdi-school"
@@ -59,21 +52,19 @@ sections:
         icon: "mdi-domain"
         url: "https://nta.ac.in"
 
-  - name: "Learning and Practice"
+  - name: "Roadmaps"
     icon: "mdi-laptop"
     items:
-      - title: "freeCodeCamp"
+      - title: "Main Roadmap Site"
         icon: "mdi-laptop-chromebook"
-        url: "https://www.freecodecamp.org"
+        url: "https://roadmap.sh/"
       - title: "JavaScript Roadmap"
         icon: "mdi-javascript"
         url: "https://roadmap.sh/javascript"
-      - title: "W3Schools"
-        icon: "mdi-language-html5"
-        url: "https://www.w3schools.com"
-      - title: "MDN Web Docs"
-        icon: "mdi-web"
-        url: "https://developer.mozilla.org"
+      - title: "AI and Machine Learning"
+        icon: "mdi-python"
+        url: "https://roadmap.sh/ai-data-scientist"
+     
 
   - name: "Blog and Content Creation"
     icon: "mdi-blogger"
@@ -85,9 +76,6 @@ sections:
       - title: "Medium"
         icon: "mdi-text-box"
         url: "https://medium.com"
-      - title: "Grammarly"
-        icon: "mdi-spellcheck"
-        url: "https://www.grammarly.com"
 
   - name: "Productivity Tools"
     icon: "mdi-calendar-clock"
@@ -110,13 +98,13 @@ sections:
     items:
       - title: "Home"
         icon: "mdi-home-map-marker"
-        url: "https://www.google.com/maps?q=your+home+location"
+        url: "https://maps.app.goo.gl/JrmJxHcWet71vbic8"
       - title: "College"
         icon: "mdi-school"
         url: "https://www.google.com/maps?q=Jabalpur+Engineering+College"
       - title: "Chacha's Home"
         icon: "mdi-home-circle-outline"
-        url: "https://www.google.com/maps?q=library+nearby"
+        url: "https://www.google.com/maps?q=23.1739508,79.9147084&z=17&hl=en"
       
 
   - name: "Communication"

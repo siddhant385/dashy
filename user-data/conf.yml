@@ -20,11 +20,11 @@ pageInfo:
   title: "Siddhant's Study Hub"
   navLinks:
     - title: "GitHub"
-      path: "https://github.com/siddhant"
+      path: "https://github.com/siddhant385"
     - title: "Blog"
-      path: "https://siddhant-blog.github.io"
+      path: "https://siddhant385.github.io/blog"
     - title: "Portfolio"
-      path: "https://your-portfolio-link.com"
+      path: "https://siddhant385.github.io"
 
 sections:
   - name: "Coding and Development"
@@ -49,12 +49,6 @@ sections:
   - name: "JEE Preparation"
     icon: "mdi-school"
     items:
-      - title: "Embibe"
-        icon: "mdi-book-open"
-        url: "https://www.embibe.com"
-      - title: "Allen Digital"
-        icon: "mdi-teach"
-        url: "https://www.allen.ac.in"
       - title: "Khan Academy"
         icon: "mdi-atom"
         url: "https://www.khanacademy.org"
@@ -86,10 +80,8 @@ sections:
     items:
       - title: "Blog Home"
         icon: "mdi-note-edit"
-        url: "https://siddhant-blog.github.io"
-      - title: "Canva"
-        icon: "mdi-palette"
-        url: "https://www.canva.com"
+        descritption: "Siddhant Sharma Blog"
+        url: "https://siddhant385.github.io/blog"
       - title: "Medium"
         icon: "mdi-text-box"
         url: "https://medium.com"
@@ -122,12 +114,10 @@ sections:
       - title: "College"
         icon: "mdi-school"
         url: "https://www.google.com/maps?q=Jabalpur+Engineering+College"
-      - title: "Library"
-        icon: "mdi-library"
+      - title: "Chacha's Home"
+        icon: "mdi-home-circle-outline"
         url: "https://www.google.com/maps?q=library+nearby"
-      - title: "Cafe"
-        icon: "mdi-coffee"
-        url: "https://www.google.com/maps?q=cafes+nearby"
+      
 
   - name: "Communication"
     icon: "mdi-chat"
@@ -138,9 +128,7 @@ sections:
       - title: "WhatsApp Web"
         icon: "mdi-whatsapp"
         url: "https://web.whatsapp.com"
-      - title: "Slack"
-        icon: "mdi-slack"
-        url: "https://slack.com"
+     
 
 
   - name: Courses and learning tools

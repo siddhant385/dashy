@@ -6,9 +6,9 @@ appConfig:
   theme: "auto"
   fontSize: 16
   layout: "auto"
-  disableConfig: false
+  disableConfig: true
   auth:
-    enabled: true
+    enabled: false
     users:
       - user: "siddhant"
         pass: "3194cf60ac336d0576070828472943dbedf49c8c6a02f2cc567859a4ce2a6772"  # Use a password hash here for security

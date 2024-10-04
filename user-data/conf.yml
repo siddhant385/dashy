@@ -7,12 +7,12 @@ appConfig:
   fontSize: 16
   layout: "auto"
   disableConfig: true
-  auth:
-    enabled: false
-    users:
-      - user: "siddhant"
-      - hash: "3194cf60ac336d0576070828472943dbedf49c8c6a02f2cc567859a4ce2a6772"  # Use a password hash here for security
-      - type: "admin"
+  # auth:
+  #   enabled: false
+  #   users:
+  #     - user: "siddhant"
+  #     - hash: "3194cf60ac336d0576070828472943dbedf49c8c6a02f2cc567859a4ce2a6772"  # Use a password hash here for security
+  #     - type: "admin"
       
     
 

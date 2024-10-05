@@ -3,7 +3,7 @@ appConfig:
   description: "Personal dashboard for learning, coding, and JEE prep"
   footer: "Powered by Dashy | Organized by Siddhant"
   icon: "https://img.icons8.com/color/48/000000/brain.png"
-  theme: "auto"
+  theme: "cyberpunk"
   fontSize: 16
   layout: "auto"
   disableConfig: true
@@ -132,6 +132,18 @@ sections:
       url: https://freecodecamp.org/learn
       icon: https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-freecodecamp-a-non-profit-organization-that-consists-of-an-interactive-learning-web-platform-logo-shadow-tal-revivo.png
       target: newtab
-    
+      
+  - name: College Materials
+    icon: fas fa-graduation-cap
+    items:
+    - title: Syllabus Ist Year
+      description: Ist Year Syllabus
+      icon: fas fa-adress-book
+      url: https://drive.google.com/drive/folders/1Puar7NLMIgR3bYro_ocjObwftdvG9-UT?usp=sharing
+      target: newtab
+    - title: College Folder
+      description: College Related Stuff
+      icon: fas fa-solid fa-file
+      url: https://drive.google.com/drive/folders/1Puar7NLMIgR3bYro_ocjObwftdvG9-UT?usp=sharing
   
     
